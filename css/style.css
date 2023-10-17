@@ -1,12 +1,25 @@
-/* class */
+* {
+  margin: 0;
+  padding: 0;
+}
 .center {
   text-align: center;
+}
+#hero {
+  width: 100%;
+}
+h1 {
+  color: blue;
+  padding: 10px;
+}
+p {
+  padding: 10px;
 }
 .social-link {
   color: white;
   font-size: 14px;
 }
-/* id */
+
 #navbar {
   background-color: #303030;
   color: aliceblue;
@@ -26,8 +39,17 @@ aside {
   width: 30%;
   float: right;
   background-color: lightblue;
+  padding-bottom: 5px;
 }
-
+aside h2 {
+  padding-top: 20px;
+}
+aside ol {
+  padding: 5px;
+}
+aside li {
+  padding: 5px;
+}
 footer {
   background-color: #303030;
   color: aliceblue;
@@ -43,9 +65,21 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+#newarrival {
+  background-color: rgb(186, 155, 216);
+  border-color: blueviolet;
+  border-width: 2px;
+  border-style: solid;
+}
+
+#newarrival h2 {
+  padding-top: 10px;
+}
+
 #newarrival li {
   /* float: left; */
-  padding: 20px;
+  padding: 10px;
   width: 70%;
 }
 
