@@ -84,13 +84,18 @@ ul {
   width: 70%;
 }
 
+#map {
+  width: 400px;
+}
+
 #contactform {
   margin-top: 10px;
   background-color: lightgrey;
   padding: 20px;
+  height: 100%;
 }
 
-#producttable {
+#contacttable, #producttable {
   margin-right: auto;
   margin-left: auto;
 }
